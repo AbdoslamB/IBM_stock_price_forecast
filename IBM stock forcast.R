@@ -7,7 +7,7 @@ library(forecast)
 # In this exercise, I analyzed the IBM stock adjusted close price in the period of [2017-01-01/2021-12-10] to create a time series forecasting models (naïve  , Seasonal naïve, ETS,ARIMA, Neural Network), then check which returned the best forecasting results the test period of the last 7 month of the data period.
 
 ## Loading the Data
-IBM <- read_csv("C:/Users/baaba/Desktop/MS. Applied Economic and Data analysis/ADEC7460.02 Fall 2021 Predictive AnalyticsForecasting [Fulton]/Module 6 VAR, Panel, HTS, Machine Learning 25 Nov -5 Dec/Assignment Homework Time Series/IBM.csv")
+IBM <- read_csv("C:/Users/username/Desktop/MS. Applied Economic and Data analysis/ADEC7460.02 Fall 2021 Predictive AnalyticsForecasting [Fulton]/Module 6 VAR, Panel, HTS, Machine Learning 25 Nov -5 Dec/Assignment Homework Time Series/IBM.csv")
 
 head(IBM)
 summary(IBM)
@@ -133,3 +133,4 @@ data.frame(Model = c("1.naive modlel", "2.snaive model", "3.ETS model", "4.ARIMA
 
 
 # Ultimately, the ARIMA model returned the best results (MASE = 0.3730515 and RMSE = 5.452839), when we compare it to the actual test data, So we can choose the ARIMA model among these models to forecast the future IBM adjusted stock price.
+
