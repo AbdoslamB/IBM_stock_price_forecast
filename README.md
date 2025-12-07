@@ -47,4 +47,4 @@ Performance was evaluated using **RMSE (Root Mean Squared Error)** and **MASE (M
 
 For a detailed, step-by-step workflow (data loading, splitting, model training, diagnostics, accuracy, and plots), see the notebook:
 
-- **forecasting_notebook.Rmd** → [Open the notebook](./forecasting_notebook.md)
+- **forecasting_notebook.md** → [Open the notebook](./forecasting_notebook.md)
