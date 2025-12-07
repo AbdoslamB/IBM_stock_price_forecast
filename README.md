@@ -2,7 +2,7 @@
 
 In this exercise, I analyzed the IBM stock adjusted close price. I checked which model returned the best MASE and RMSE results.
 
-The IBM stock adjusted prices are from <a href="https://finance.yahoo.com/quote/IBM/history/" target="_blank">Yahoo Finance</a> .
+The IBM stock adjusted prices are from <a href="https://finance.yahoo.com/quote/IBM/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance</a> .
 
 ### Models
 - **Naïve Model**
@@ -42,3 +42,9 @@ Performance was evaluated using **RMSE (Root Mean Squared Error)** and **MASE (M
    - Visual plots were generated to compare forecasts against actual test data.
 
 ---
+
+## Step-by-step walkthrough
+
+For a detailed, step-by-step workflow (data loading, splitting, model training, diagnostics, accuracy, and plots), see the notebook:
+
+- **forecasting_notebook.Rmd** → [Open the notebook](./forecasting_notebook.md)
